@@ -11,14 +11,14 @@ export default function Nav() {
         <div className="flex items-center gap-5 justify-center h-20">
           <Image src="/logo.svg" width="50" height="50" alt="logo" />
           <div className="flex flex-col">
-          <h1 className="text-xl">Astro</h1>
-          <p className="text-xs">Portfolio v3</p>
+          <h1 className="text-xl font-bold">Astro</h1>
+          <p className="text-xs font-light">Portfolio v3</p>
           </div>
         </div>
         <ul className="flex flex-col py-8">
           <li>
             <a
-              href="#"
+              href="./"
               className="text-sm font-medium flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
               <Button variant="secondary" className="w-48">
@@ -28,7 +28,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="./about"
               className="text-sm font-medium flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
               <Button variant="secondary" className="w-48">
@@ -38,7 +38,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="./projects"
               className="text-sm font-medium flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
               <Button variant="secondary" className="w-48">
@@ -57,6 +57,10 @@ export default function Nav() {
             </a>
           </li>
         </ul>
+        <div className="fixed bottom-10 text-sm">
+          <p>Copyright © <i className="italic">2024</i></p>
+          
+        </div>
       </div>
     </>
   );
