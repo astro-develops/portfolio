@@ -51,6 +51,7 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-4 justify-center">
         {projects.map((p, index) => (
           <motion.a
+            key={index}
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-6 rounded-md bg-[#AAAAAA0a] border-[#CCCCCC12] border"
