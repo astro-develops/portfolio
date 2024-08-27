@@ -8,11 +8,17 @@ import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const projects: { img: string; title: string; des: string; url: string }[] = [
+  // {
+  //   img: "303.png",
+  //   title: "Team 303",
+  //   des: "FRC Robotics Website for Team 303",
+  //   url: "https://team303.vercel.app/",
+  // },
   {
-    img: "303.png",
-    title: "Team 303",
-    des: "FRC Robotics Website for Team 303",
-    url: "https://team303.vercel.app/",
+    img: "portfolio.png",
+    title: "My Portfolio",
+    des: "My personal developer portfolio",
+    url: "https://astro-gamma-peach.vercel.app/",
   },
   {
     img: "portfolio.png",
@@ -21,11 +27,17 @@ const projects: { img: string; title: string; des: string; url: string }[] = [
     url: "https://astro-gamma-peach.vercel.app/",
   },
   {
-    img: "303.png",
-    title: "Team 303",
-    des: "FRC Robotics Website for Team 303",
-    url: "https://team303.vercel.app/",
+    img: "portfolio.png",
+    title: "My Portfolio",
+    des: "My personal developer portfolio",
+    url: "https://astro-gamma-peach.vercel.app/",
   },
+  // {
+  //   img: "303.png",
+  //   title: "Team 303",
+  //   des: "FRC Robotics Website for Team 303",
+  //   url: "https://team303.vercel.app/",
+  // },
 ];
 
 export default function Home() {
